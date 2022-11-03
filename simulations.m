@@ -34,10 +34,10 @@ toc;
 
 % SZ
 regime_type = 'SZ'; % select either AI/Iso/BS/SZ
-durtn = 50;    % provide the duration of the simulation
+durtn = 60;    % provide the duration of the simulation
 outdirpath = './output_dir'; % provide the output directory to save the simulation output;
 
-tic; % for getting runtime of the simulation ~ Elapsed time is 730.488800 seconds.
+tic; % for getting runtime of the simulation ~ Elapsed time is 719.905010 seconds 
 run_simulation(regime_type, durtn, outdirpath); % run the simulation;
 toc;
 
