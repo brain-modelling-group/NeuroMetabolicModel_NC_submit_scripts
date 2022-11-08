@@ -1,6 +1,6 @@
 function projection_points_in_DSP = DPalgo_optimal_trajectory_withnan(DS_plane_feat, baby_data_feat_withnan, radius)
 % To find the optimal projection of the data points onto the model
-% demand-supply plane.
+% [K^+]_{Buffer}-[O_2]_{Buffer} plane.
 %
 % Previous to this step, we perform feature normalization (for both DS_plane
 % and baby_data) by subtracting each feature value from its global mean and
