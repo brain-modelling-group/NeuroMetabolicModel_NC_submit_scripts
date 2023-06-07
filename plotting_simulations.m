@@ -61,7 +61,7 @@ else
     st_and_nn1 = [];
 end
 
-if ~isempty(st_and_nn1_full)
+if ~isempty(st_and_nn2_full)
     st_and_nn2 = st_and_nn2_full(st_and_nn2_full(:,1)>=st_t,:);
     st_and_nn2 = st_and_nn2(st_and_nn2(:,1)<ed_t,:);
 else
